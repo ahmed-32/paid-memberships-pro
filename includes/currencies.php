@@ -84,7 +84,8 @@
 				'name' => __('Vietnamese Dong', 'pmpro'),
 				'decimals' => 0,
 				),
-			);
+			),
+			'SAR' => __('Saudi Riyal', 'pmpro');
 	
 	$pmpro_currencies = apply_filters("pmpro_currencies", $pmpro_currencies);
 	
